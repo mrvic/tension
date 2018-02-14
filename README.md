@@ -49,7 +49,7 @@ sudo systemctl disable serial-getty@ttyS0.service
 
 3) Install influxDB
 ```
-
+https://www.npmjs.com/package/node-red-contrib-influxdb
 ```
 
 4) Install node-red bluetooth
