@@ -47,6 +47,21 @@ sudo systemctl stop serial-getty@ttyS0.service
 sudo systemctl disable serial-getty@ttyS0.service
 ```
 
+3) Install influxDB
+```
+
+```
+
+4) Install node-red bluetooth
+```
+https://flows.nodered.org/node/node-red-contrib-noble
+```
+
+5) Install node-red serialport
+```
+https://www.npmjs.com/package/serialport
+```
+
 
 
 
