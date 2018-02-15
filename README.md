@@ -45,6 +45,9 @@ Welcome to Node-RED
 sudo usermod -a -G tty chip
 sudo systemctl stop serial-getty@ttyS0.service
 sudo systemctl disable serial-getty@ttyS0.service
+sudo chmod 660 /dev/ttyS0
+sudo chown root:dialout /dev/ttyS0
+
 ```
 
 3) Install influxDB
