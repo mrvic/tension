@@ -60,6 +60,12 @@ https://flows.nodered.org/node/node-red-contrib-noble
 5) Install node-red serialport
 ```
 https://www.npmjs.com/package/serialport
+
+MUST INSTALL FROM SOURCE !!!
+
+sudo apt-get install build-essential
+sudo npm install serialport --unsafe-perm --build-from-source
+
 ```
 
 
